@@ -2,6 +2,8 @@
 
 An asciifier library for C#
 
+Base asciifier implementations based off of [Spektre's Stack Overflow Post](https://stackoverflow.com/a/32987834/7517185), but with added color capabilities.
+
 This project is nowhere near finished and the classes are pretty poorly setup at the moment, but it still works. I would not recommend using this anywhere until it's actually cleaned up.
 
 ## Examples
