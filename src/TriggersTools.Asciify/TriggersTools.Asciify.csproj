@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\BitmapFonts\Terminal10x18.png" />
+    <None Remove="Resources\BitmapFonts\Terminal12x16.png" />
+    <None Remove="Resources\BitmapFonts\Terminal16x12.png" />
+    <None Remove="Resources\BitmapFonts\Terminal16x8.png" />
+    <None Remove="Resources\BitmapFonts\Terminal4x6.png" />
+    <None Remove="Resources\BitmapFonts\Terminal5x12.png" />
+    <None Remove="Resources\BitmapFonts\Terminal6x8.png" />
+    <None Remove="Resources\BitmapFonts\Terminal7x12.png" />
+    <None Remove="Resources\BitmapFonts\Terminal8x12.png" />
+    <None Remove="Resources\BitmapFonts\Terminal8x8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal10x18.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal12x16.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal16x12.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal16x8.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal4x6.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal5x12.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal6x8.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal7x12.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal8x12.png" />
+    <EmbeddedResource Include="Resources\BitmapFonts\Terminal8x8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
