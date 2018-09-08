@@ -1,4 +1,4 @@
-# TriggersTools.Asciify
+# TriggersTools.Asciify ![AppIcon](https://i.imgur.com/yolEHDU.png)
 
 An asciifier library for C#
 
