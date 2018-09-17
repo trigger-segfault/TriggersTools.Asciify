@@ -1,5 +1,7 @@
 # TriggersTools.Asciify ![AppIcon](https://i.imgur.com/yolEHDU.png)
 
+[![Creation Date](https://img.shields.io/badge/created-june%202018-A642FF.svg?style=flat)](https://github.com/trigger-death/TriggersTools.Asciify/commit/84b62423c7624b6688c562198b81c2755a0922ae)
+
 An asciifier library for C#
 
 Base asciifier implementations based off of [Spektre's Stack Overflow Post](https://stackoverflow.com/a/32987834/7517185), but with added color capabilities.
